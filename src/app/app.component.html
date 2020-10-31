@@ -1,0 +1,7 @@
+<div style="text-align:center">
+{{ title }}
+<br/>
+<button (click)="buttonClicked()">Enviar Mensaje</button>
+<input (keyup)="onKey($event)">
+<li *ngFor="let value of values">{{ value }}</li><br/>
+</div>
